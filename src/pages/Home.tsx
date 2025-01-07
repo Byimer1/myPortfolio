@@ -61,7 +61,7 @@ export const Home = () => {
           className="flex justify-center space-x-6 pt-8"
         >
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/byimer1"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white transition-colors p-2 hover:bg-gray-800 rounded-full"
