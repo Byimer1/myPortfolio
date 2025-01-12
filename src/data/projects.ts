@@ -19,7 +19,7 @@ export const projects: Project[] = [
     image: trendImage,
     technologies: ['Python', 'Django', 'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'SQLite', 'REST API'],
     githubUrl: 'https://github.com/Byimer1/trendAdSocial',
-    liveUrl: '#',
+    liveUrl: 'https://trendadsocial.onthewifi.com/',
   },
   {
     id: '2',
