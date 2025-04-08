@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail, FileText } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { SectionHeading } from '../components/SectionHeading';
 import { ContactForm } from '../components/ContactForm';
-import resume from '../assets/Biruk_Yimer_Resume_3_.pdf';
+import resume from '../assets/Biruk_Yimer_Resume_3.pdf';
 
 export const Contact = () => {
   const socialLinks = [
