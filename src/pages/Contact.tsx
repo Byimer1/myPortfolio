@@ -2,7 +2,7 @@ import { Github, Linkedin, Mail, FileText } from 'lucide-react';
 import { motion } from 'framer-motion';
 import { SectionHeading } from '../components/SectionHeading';
 import { ContactForm } from '../components/ContactForm';
-import resume from '../assets/Biruk_Yimer_Resume_3.pdf';
+import resume from '../assets/Biruk_Yimer_Resume_3_.pdf';
 
 export const Contact = () => {
   const socialLinks = [
@@ -56,7 +56,7 @@ export const Contact = () => {
             </div>
 
             <a
-              href={resume}
+              href={#}
               download
               className="inline-flex items-center gap-2 bg-gray-800 hover:bg-gray-700 
                        text-white px-4 py-2 rounded-lg transition-colors duration-300"
