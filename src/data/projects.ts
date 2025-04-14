@@ -1,5 +1,6 @@
 import trendImage from '../assets/images/trend.JPG';
 import guessingImage from '../assets/images/guessing.jpg';
+import Eventhub from '../assets/images/Eventhub.png';
 
 export interface Project {
   id: string;
@@ -17,17 +18,17 @@ export const projects: Project[] = [
     title: 'TrendAdSocial',
     description: 'A dynamic social media web application inspired by Instagram, featuring user authentication, real-time messaging, post sharing, and interactive features. Built with Django and Bootstrap, it includes features like follow systems, direct messaging, and push notifications.',
     image: trendImage,
-    technologies: ['Python', 'Django', 'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'SQLite', 'REST API'],
+    technologies: ['Python', 'Django', 'HTML', 'CSS', 'JavaScript', 'Bootstrap', 'SQLite', 'REST API', 'AWS EC2'],
     githubUrl: 'https://github.com/Byimer1/trendAdSocial',
     liveUrl: 'https://trendadsocial.onthewifi.com/',
   },
   {
     id: '2',
-    title: 'Ocean Number Game',
-    description: 'A React Native mobile game where players compete against the computer in a number-guessing challenge. Features an intuitive UI, custom animations, and engaging gameplay mechanics.',
-    image: guessingImage,
-    technologies: ['React Native', 'Expo', 'Custom Animations', 'Styled Components'],
-    githubUrl: 'https://github.com/Byimer1/ocean-number-game',
+    title: 'Event Hub - Full Stack Event Scheduler',
+    description: 'Event Hub is a full stack event scheduling app where users can create, manage, and delete events. Built with React, Tailwind CSS, FastAPI, and PostgreSQL, it features secure JWT auth and Google Calendar sync. The backend is containerized with Docker for easy development and deployment.    ',
+    image: Eventhub,
+    technologies: ['React', 'Vite', 'Tailwind CSS', 'FastAPI', 'PostgreSQL', 'Docker', 'Axios', 'Google Calendar API', 'JWT'],
+    githubUrl: 'https://github.com/Byimer1/EventHub',
     liveUrl: '#',
   },
   {
@@ -56,5 +57,14 @@ export const projects: Project[] = [
     technologies: ['HTML', 'CSS', 'JavaScript'],
     githubUrl: 'https://github.com/Byimer1/Byimer1.github.io',
     liveUrl: 'https://birukyimer.vercel.app',
+  },
+  {
+    id: '6',
+    title: 'Ocean Number Game',
+    description: 'A React Native mobile game where players compete against the computer in a number-guessing challenge. Features an intuitive UI, custom animations, and engaging gameplay mechanics.',
+    image: guessingImage,
+    technologies: ['React Native', 'Expo', 'Custom Animations', 'Styled Components'],
+    githubUrl: 'https://github.com/Byimer1/ocean-number-game',
+    liveUrl: '#',
   },
 ];
