@@ -1,9 +1,15 @@
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail } from 'lucide-react';
-import { Link } from 'react-router-dom';
 import { TypedText } from '../components/TypedText';
 
 export const Home = () => {
+  const scrollToSection = (id: string) => {
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <div className="min-h-screen flex items-center justify-center">
       <div className="text-center z-10 space-y-8">
@@ -31,27 +37,27 @@ export const Home = () => {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="flex flex-col sm:flex-row items-center justify-center gap-4"
         >
-          <Link
-            to="/about"
+          <button
+            onClick={() => scrollToSection('about')}
             className="px-8 py-3 bg-blue-600 text-white rounded-full font-semibold 
                      hover:bg-blue-700 transition-colors duration-300 w-48"
           >
             About Me
-          </Link>
-          <Link
-            to="/projects"
+          </button>
+          <button
+            onClick={() => scrollToSection('projects')}
             className="px-8 py-3 bg-white text-black rounded-full font-semibold 
                      hover:bg-gray-200 transition-colors duration-300 w-48"
           >
             Explore My Work
-          </Link>
-          <Link
-            to="/contact"
+          </button>
+          <button
+            onClick={() => scrollToSection('contact')}
             className="px-8 py-3 bg-gray-800 text-white rounded-full font-semibold 
                      hover:bg-gray-700 transition-colors duration-300 w-48"
           >
             Get in Touch
-          </Link>
+          </button>
         </motion.div>
 
         <motion.div
