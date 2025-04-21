@@ -14,34 +14,34 @@ export const Experience = () => {
   const experiences: TimelineItem[] = [
     {
       id: "exp1",
-      title: "Full Stack Developer",
-      company: "Tech Solutions Inc.",
-      period: "Jan 2023 - Present",
-      description: "Developing and maintaining web applications using React, Node.js, and MongoDB. Implementing responsive design and ensuring cross-browser compatibility.",
+      title: "Freelance Developer",
+      company: "Pharmacy Stock Management SaaS",
+      period: "Jan 2025 - Present",
+      description: "Developed a full-stack pharmacy inventory system with AI-powered assistant, supporting 100+ daily transactions for a live client.",
       isLeft: true
     },
     {
       id: "exp2",
-      title: "Frontend Developer",
-      company: "Digital Creations",
-      period: "May 2021 - Dec 2022",
-      description: "Created responsive UI components using React and integrated with RESTful APIs. Collaborated with design team to implement pixel-perfect interfaces.",
+      title: "Software Engineer",
+      company: "Churchme",
+      period: "June 2024 - Jan 2025",
+      description: "Built and maintained backend services and CI/CD pipelines for a church community app with 3K+ users and a 4.7 rating.",
       isLeft: false
     },
     {
       id: "exp3",
-      title: "Web Developer Intern",
-      company: "Innovate Studios",
-      period: "Jan 2021 - Apr 2021",
-      description: "Assisted in developing and maintaining company websites. Gained experience in HTML, CSS, JavaScript, and basic backend technologies.",
+      title: "Software Engineering Intern",
+      company: "Comcast",
+      period: "May 2023 - Aug 2023",
+      description: "Focused on API testing using Karate and Python, improving test coverage and reducing manual QA efforts as a junior engineer.",
       isLeft: true
     },
     {
       id: "exp4",
-      title: "Freelance Developer",
-      company: "Self-employed",
-      period: "Jun 2020 - Dec 2020",
-      description: "Developed custom websites for small businesses and individuals. Managed client relationships and delivered projects on schedule.",
+      title: "Web Development and Python Instructor",
+      company: "Children and Charity International",
+      period: "Jun 2021 - Aug 2022",
+      description: "Taught web development and Python to students, helping them build foundational coding skills and real-world projects.",
       isLeft: false
     }
   ];
