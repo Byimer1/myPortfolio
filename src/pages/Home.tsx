@@ -1,6 +1,7 @@
-import { motion } from 'framer-motion';
 import { Github, Linkedin, Mail } from 'lucide-react';
+
 import { TypedText } from '../components/TypedText';
+import { motion } from 'framer-motion';
 
 export const Home = () => {
   const scrollToSection = (id: string) => {
@@ -75,7 +76,7 @@ export const Home = () => {
             <Github size={24} />
           </a>
           <a
-            href="https://linkedin.com/in/yourusername"
+            href="https://linkedin.com/in/biruk-yimer-17a19220a/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-300 hover:text-white transition-colors p-2 hover:bg-gray-800 rounded-full"
@@ -83,7 +84,7 @@ export const Home = () => {
             <Linkedin size={24} />
           </a>
           <a
-            href="mailto:your.email@example.com"
+            href="mailto:birukesh24@gmail.com"
             className="text-gray-300 hover:text-white transition-colors p-2 hover:bg-gray-800 rounded-full"
           >
             <Mail size={24} />

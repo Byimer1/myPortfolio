@@ -1,6 +1,6 @@
-import trendImage from '../assets/images/trend.JPG';
-import guessingImage from '../assets/images/guessing.jpg';
 import Eventhub from '../assets/images/Eventhub.png';
+import guessingImage from '../assets/images/guessing.jpg';
+import trendImage from '../assets/images/trend.JPG';
 
 export interface Project {
   id: string;
@@ -29,7 +29,7 @@ export const projects: Project[] = [
     image: Eventhub,
     technologies: ['React', 'Vite', 'Tailwind CSS', 'FastAPI', 'PostgreSQL', 'Docker', 'Axios', 'Google Calendar API', 'JWT'],
     githubUrl: 'https://github.com/Byimer1/EventHub',
-    liveUrl: '#',
+    liveUrl: 'https://github.com/Byimer1/EventHub',
   },
   {
     id: '3',
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     image: 'https://images.unsplash.com/photo-1527474305487-b87b222841cc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1674&q=80',
     technologies: ['Python', 'TensorFlow', 'Scikit-learn', 'Pandas', 'NumPy', 'Matplotlib'],
     githubUrl: 'https://github.com/Byimer1/MLproj',
-    liveUrl: '#',
+    liveUrl: 'https://github.com/Byimer1/MLproj',
   },
   {
     id: '4',
@@ -65,6 +65,6 @@ export const projects: Project[] = [
     image: guessingImage,
     technologies: ['React Native', 'Expo', 'Custom Animations', 'Styled Components'],
     githubUrl: 'https://github.com/Byimer1/ocean-number-game',
-    liveUrl: '#',
+    liveUrl: 'https://github.com/Byimer1/ocean-number-game',
   },
 ];
