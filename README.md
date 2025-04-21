@@ -123,8 +123,8 @@ This project is open source and available under the [MIT License](LICENSE).
 
 Feel free to reach out for collaboration or questions:
 
-- Email: your.email@example.com
-- LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)
+- Email: birukesh24@gmail.com
+- LinkedIn: [linkedin.com/in/](https://linkedin.com/in/biruk-yimer-17a19220a)
 - GitHub: [@Byimer1](https://github.com/Byimer1)
 
 ---
