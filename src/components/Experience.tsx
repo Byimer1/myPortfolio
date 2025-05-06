@@ -23,16 +23,16 @@ export const Experience = () => {
     {
       id: "exp2",
       title: "Software Engineer",
-      company: "Churchme",
-      period: "June 2024 - Jan 2025",
-      description: "Built and maintained backend services and CI/CD pipelines for a church community app with 3K+ users and a 4.7 rating.",
+      company: "Comcast",
+      period: "Jan 2023 - present",
+      description: "Built and maintained backend services and CI/CD pipelines, Automated testes using Karate and Python",
       isLeft: false
     },
     {
       id: "exp3",
       title: "Software Engineering Intern",
       company: "Comcast",
-      period: "May 2023 - Aug 2023",
+      period: "May 2022 - Aug 2022",
       description: "Focused on API testing using Karate and Python, improving test coverage and reducing manual QA efforts as a junior engineer.",
       isLeft: true
     },
