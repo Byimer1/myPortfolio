@@ -20,29 +20,39 @@ export const Experience = () => {
       description: "Developed a full-stack pharmacy inventory system with AI-powered assistant, supporting 100+ daily transactions for a live client.",
       isLeft: true
     },
+
     {
       id: "exp2",
-      title: "Software Engineer",
-      company: "Comcast",
-      period: "Jan 2023 - present",
-      description: "Built and maintained backend services and CI/CD pipelines, Automated testes using Karate and Python",
+      title: "Software Developer",
+      company: "Churchme",
+      period: "June 2024 - June 2025",
+      description: "Developing cross-platform mobile app using React Native and Firebase, integrating Twilio and Planning Center APIs, and enhancing performance through modular architecture and optimized rendering.",
       isLeft: false
     },
+
+    // {
+    //   id: "exp2",
+    //   title: "Software Engineer",
+    //   company: "Comcast",
+    //   period: "Jan 2023 - present",
+    //   description: "Built and maintained backend services and CI/CD pipelines, Automated testes using Karate and Python",
+    //   isLeft: false
+    // },
+    // {
+    //   id: "exp3",
+    //   title: "Software Engineering Intern",
+    //   company: "Comcast",
+    //   period: "May 2022 - Aug 2022",
+    //   description: "Focused on API testing using Karate and Python, improving test coverage and reducing manual QA efforts as a junior engineer.",
+    //   isLeft: true
+    // },
     {
       id: "exp3",
-      title: "Software Engineering Intern",
-      company: "Comcast",
-      period: "May 2022 - Aug 2022",
-      description: "Focused on API testing using Karate and Python, improving test coverage and reducing manual QA efforts as a junior engineer.",
-      isLeft: true
-    },
-    {
-      id: "exp4",
       title: "Web Development and Python Instructor",
       company: "Children and Charity International",
       period: "Jun 2021 - Aug 2022",
       description: "Taught web development and Python to students, helping them build foundational coding skills and real-world projects.",
-      isLeft: false
+      isLeft: true
     }
   ];
 
